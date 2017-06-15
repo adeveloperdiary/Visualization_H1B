@@ -98,3 +98,26 @@ div.tooltip {
     margin: 0; !important;
 }
 
+.heading-style{
+    color:#515154;
+    line-height:30px;
+    font-weight: 600;
+}
+
+@media all and (min-width: 1200px) {
+    .heading-style{
+        font-size: 1em;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .heading-style{
+        font-size: .8em;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .heading-style{
+        font-size: 1em;
+    }
+}
